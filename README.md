@@ -23,7 +23,7 @@ The Drawing App is a simple web-based drawing application that allows users to c
 
 1. Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/yourusername/drawing-app.git
+    git clone https://github.com/Abdo0422/DrawingGame.git
     ```
 
 2. Navigate to the project directory:
