@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="toolbar">
+        <input type="color" id="color-picker" value="#000000">
+        <select id="color-options" class="color-select">
+            <option value="#000000">🖤 Black</option>
+            <option value="#FF0000">❤️ Red</option>
+            <option value="#00FF00">💚 Green</option>
+            <option value="#0000FF">💙 Blue</option>
+            <option value="#FFFF00">💛 Yellow</option>
+            <option value="#FF00FF">💜 Magenta</option>
+            <option value="#00FFFF">💙 Cyan</option>
+            <option value="#FFFFFF">🤍 White</option>
+        </select>
+        
+        
+        <select id="brush-size">
+            <option value="1">1</option>
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+        </select>
+        <select id="shape-picker">
+            <option value="draw">🖌️ Free Draw</option>
+            <option value="rectangle">⬜ Rectangle</option>
+            <option value="circle">⚪ Circle</option>
+            <option value="line">➖ Line</option>
+            <option value="bucket">🪣 Bucket</option>
+        </select>
+        <button id="clear-canvas">Clear</button>
+        <button id="download-button">Download</button>
+    </div>
+    <canvas id="drawing-canvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
